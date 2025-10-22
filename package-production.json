@@ -1,0 +1,20 @@
+{
+  "name": "wwe-championship-store",
+  "version": "1.0.0",
+  "description": "WWE Championship Belts E-commerce Store",
+  "main": "dist/server/node-build.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/server/node-build.mjs",
+    "pm2": "pm2 start dist/server/node-build.mjs --name wwe-store"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "BURNITDOWNYT",
+  "license": "MIT"
+}

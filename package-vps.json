@@ -1,0 +1,23 @@
+{
+  "name": "wwe-championship-store",
+  "version": "1.0.0",
+  "description": "WWE Championship Belts E-commerce Store",
+  "main": "dist/server/node-build.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/server/node-build.mjs",
+    "prod": "NODE_ENV=production node dist/server/node-build.mjs"
+  },
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "stripe": "^19.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "BURNITDOWNYT",
+  "license": "MIT"
+}
